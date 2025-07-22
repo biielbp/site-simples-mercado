@@ -1,0 +1,188 @@
+/*Limpar formatações padrão*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 1em;
+	font-family:"Trebuchet MS", Helvetica, sans-serif ;
+	background: #ca0009;
+}
+
+/***** Layout *****/
+#area-cabecalho{
+	background-color: #129538;
+	padding: 5px;
+	text-align: center;
+
+}
+
+#area-menu{
+	padding: 10px;
+}
+
+#area-logo img{
+width: 150px;
+height: auto; 
+}
+
+#area-principal{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#area-postagens, #area-lateral{
+	background: white;
+
+}
+
+#area-postagens{
+	width: 400px;
+	float: left;
+	
+}
+
+#area-lateral{
+	width: 400px;
+	float: right;
+}
+
+#loc-texto{
+	text-align: right;
+}
+
+/*#rodape {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    background: white;
+}*/
+
+#texto1{
+	color: white;
+}
+
+
+
+
+#area-lateral img{
+	width: 350px;
+	height: auto;
+	float: none;
+
+}
+
+
+.postagem img{
+
+	width: 350px;
+	height: auto;
+	float: none;
+}
+.post{
+	color: black;
+}
+
+
+.mapa {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.loc-texto {
+	color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+/***** detalhe branco c/gambiarra *****/
+#detalhe{
+	color: white;
+	background: white;
+}
+
+/***** Formatações do Menu *****/
+a{
+	text-decoration: none;
+}
+a:link, a:visited{
+	color: #FFF;
+	padding: 8px 12px;
+}
+
+a:hover{
+	color: #129538;
+	background: #FFF ;
+}
+
+h2, h3, span{
+	color: black;
+}
+
+
+
+.conteudo-contato {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+}
+
+.conteudo-contato h1,
+.conteudo-contato h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.info-contato p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.horarios {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+.formulario-contato {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.formulario-contato label {
+    font-weight: bold;
+}
+
+.formulario-contato input,
+.formulario-contato textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.formulario-contato button {
+    padding: 12px;
+    background-color: #b30000;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formulario-contato button:hover {
+    background-color: #990000;
+}
