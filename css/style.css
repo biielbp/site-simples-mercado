@@ -186,3 +186,55 @@ h2, h3, span{
 .formulario-contato button:hover {
     background-color: #990000;
 }
+
+/* Responsividade para celular e tablet */
+@media (max-width: 768px) {
+  #area-cabecalho,
+  #area-menu,
+  #area-logo,
+  #area-principal,
+  .postagem,
+  .post,
+  #area-lateral,
+  #area-lateral2,
+  .conteudo-contato {
+    width: 100% !important;
+    float: none !important;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  #area-menu a {
+    display: block;
+    margin: 5px 0;
+    text-align: center;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .formulario-contato input,
+  .formulario-contato textarea,
+  .formulario-contato button {
+    width: 100%;
+  }
+
+  iframe {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  body {
+    padding: 0;
+  }
+
+  #area-principal {
+    padding: 0 10px;
+  }
+
+  .horarios {
+    font-size: 14px;
+  }
+}
